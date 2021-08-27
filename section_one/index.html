@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>playFair algo 'الجوريثم يعنى'</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+        <form class="form-signin" method="post" action="Algorithms.php">
+          <div class="text-center mb-4">
+            <hr>
+            <h1 class="h3 mb-3 font-weight-normal"> Encryption Algorithms </h1>
+          </div><hr>
+          <div class="form-label-group">
+            <label for="inputMsg">Your Message </label>
+            <input type="text" id="inputMsg" name="msg" class="form-control" placeholder=" TEXT " required autofocus>
+          </div>
+
+          <div class="form-label-group">
+            <label for="inputKey">Key</label>
+            <input type="text" id="inputKey" name="Key" class="form-control" placeholder="Key" required>
+          </div><hr>
+          
+          <div class="checkbox mb-3">
+              <input type="radio" name="algorithm" value="autokey" required> Autokey   
+              <input type="radio" name="algorithm" value="vigenere"> Vigenere
+              <input type="radio" name="algorithm" value="caesar"> Caesar
+          </div><hr>
+
+          <div class="checkbox mb-3">
+              <input type="radio" name="type" value="encrypt" required> Encrypt
+              <input type="radio" name="type" value="decrypt"> Decrypt
+          </div>
+          <button class="btn btn-lg btn-info btn-block" type="submit" name="submit">Send</button>
+        </form>
+      </div><br>
+</div>
+<div class="row">
+<div class="col-lg-9 text-right">
+  <br><a class="btn btn-primary" href="playFair.html" > play Fair >> </a>
+</div>
+</div>
+</body>
+</html>
